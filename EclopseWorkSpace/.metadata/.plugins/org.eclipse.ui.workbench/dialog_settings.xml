@@ -16,4 +16,13 @@
 		<item value="14" key="DIALOG_Y_ORIGIN"/>
 		<item value="195" key="DIALOG_X_ORIGIN"/>
 	</section>
+	<section name="NewWizardAction">
+		<item value="org.testng.eclipse.wizards.NewTestNGClassWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.testng.eclipse"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>

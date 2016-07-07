@@ -16,7 +16,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 	    	DesiredCapabilities dc = DesiredCapabilities.internetExplorer();
 	    	dc.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 	    	dc.setCapability("ignoreProtectedModeSettings", true); //IE默认启动保护模式，要么手动在浏览器的设置中关闭保护模式，要么在代码中加上这一句，即可
-	    	System.setProperty("webdriver.ie.driver", "C:\\Daniel Yuan\\work\\Selenium-2016\\ForJava\\tools\\2.53\\IEDriverServer_x64_2.53.1\\IEDriverServer.exe");
+	    	System.setProperty("webdriver.ie.driver", "F:\\Selenium\\Java\\tools\\IEDriverServer_x64_2.53.1\\IEDriverServer.exe");
 	    	
 	    	//如果浏览器没有默认安装在C盘，需要制定其路径
 	        //System.setProperty("webdriver.firefox.bin", "D:/Program Files/Mozilla firefox/firefox.exe"); 

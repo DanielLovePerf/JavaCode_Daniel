@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Daniel Yuan\work\Selenium-2016\ForJava\tools\2.53\selenium-java-2.53.1\selenium-2.53.1\libs" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="F:\Selenium\Java\tools\selenium-java-2.53.1\selenium-2.53.1\libs" key="org.eclipse.jdt.ui.lastextjar"/>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="true" key="group_libraries"/>
 		<item value="false" key="linkWithEditor"/>
@@ -16,5 +19,18 @@
 		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="false" key="create_unimplemented"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="8" key="index"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.PackageSelectionDialog">
+		<item value="684" key="height"/>
+		<item value="594" key="width"/>
+		<item value="24" key="y"/>
+		<item value="663" key="x"/>
 	</section>
 </section>

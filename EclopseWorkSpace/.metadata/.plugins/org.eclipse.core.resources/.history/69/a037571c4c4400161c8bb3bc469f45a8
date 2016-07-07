@@ -1,0 +1,28 @@
+package javaJarTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class HomeFirefox {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public static void main(String[] args) {
+
+	        WebDriver driver = new FirefoxDriver();  // for FireFox
+	    	
+	        driver.get("http://www.baidu.com/"); 
+	        driver.manage().window().maximize();
+	        WebElement txtbox = driver.findElement(By.name("wd")); 
+	        txtbox.sendKeys("Glen");
+	        WebElement btn = driver.findElement(By.id("su"));
+	        btn.click();
+	        
+	        driver.close();
+
+	    }
+	}
+}
