@@ -1,0 +1,50 @@
+package javaJarTest;
+
+public class String1 {
+
+	//usage of charAt
+	public void strOccur(){
+			// 定义一个字符串
+			String s = "aljlkdsflkjsadjfklhasdkjlflkajdflwoiudsafhaasdasd";
+	        
+	        // 出现次数
+			int num = 0;
+//	        byte[] a=s.getBytes();
+	         // 循环遍历每个字符，判断是否是字符 a ，如果是，累加次数
+			for (int i=0;i<s.length();i++)
+			{
+	            // 获取每个字符，判断是否是字符a
+				if (s.charAt(i)=='a') {
+	                // 累加统计次数
+					num++; 
+				}
+			}
+			System.out.println("字符a出现的次数：" + num);
+		}
+	//useage of StringBuilder
+	public void strbuilder(){
+		// 创建一个空的StringBuilder对象
+		StringBuilder str=new StringBuilder();
+        
+		// 追加字符串
+		str.append("jaewkjldfxmopzdm");
+		
+        // 从后往前每隔三位插入逗号
+		int len=str.length();
+		for(int i=(len-1);i>0;i--){
+			str.insert((len-4), ",");
+		}     
+		
+        // 将StringBuilder对象转换为String对象并输出
+		System.out.print(str.toString());
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String1 str=new String1();
+//		str.strOccur();
+		str.strbuilder();
+
+	}
+
+}
