@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test" verbose="10">
+    <listeners>
+   		 <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+   		 <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  	</listeners>
+    <classes>
+      <class name="TestNG.TestNGClass"/>
+        <methods>
+          <include name="TestNgLearn3" />
+          <include name="TestNgLearn1" />
+          <include name="TestNgLearn2" />
+        </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

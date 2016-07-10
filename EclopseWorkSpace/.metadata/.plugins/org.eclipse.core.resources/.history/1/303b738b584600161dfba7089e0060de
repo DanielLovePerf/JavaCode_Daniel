@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" parallel="false">
+  <test name="Test1">
+  	<listeners>
+   		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+   	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  	</listeners>
+ <!--  
+    <classes>
+      <class name="TestNG2.ExpectedExceptionTest"/>
+    </classes>
+ -->
+ 	<parameter name="myName" value="account.xml"/> 
+ 	<classes>
+      <class name="TestNG2.ParamTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

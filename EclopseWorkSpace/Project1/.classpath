@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/selenium-java-2.53.1.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/selenium-java-2.53.1-srcs.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/libs/apache-mime4j-0.6.jar"/>
@@ -24,6 +23,7 @@
 	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/libs/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/libs/netty-3.5.7.Final.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/libs/phantomjsdriver-1.2.1.jar"/>
-	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/libs/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium/Java/tools/selenium-java-2.53.1/selenium-2.53.1/libs/testng-6.9.9.jar" sourcepath="/TestNG/src/TestNG"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

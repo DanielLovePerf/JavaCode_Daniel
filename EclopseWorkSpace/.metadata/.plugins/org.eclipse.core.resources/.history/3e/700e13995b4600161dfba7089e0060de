@@ -1,0 +1,15 @@
+package TestNG2;
+
+import org.junit.Test;
+import com.beust.jcommander.Parameters;
+
+
+public class ParamTest {
+
+    @Parameters({"myName"})
+    @Test
+    public void parameterTest(String myName) {
+        System.out.println("Parameterized value is : " + myName);
+    }
+}
+

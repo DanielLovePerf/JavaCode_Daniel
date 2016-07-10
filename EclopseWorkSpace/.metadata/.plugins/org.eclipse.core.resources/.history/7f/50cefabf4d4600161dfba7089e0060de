@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" parallel="false">
+  <test name="Test1">
+    <listeners>
+   		 <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+   		 <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  	</listeners>
+    <classes>
+      <class name="ExpectedExceptionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

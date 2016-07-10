@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class AddScores {
 
 	public static void main(String[] args) {
-		Scanner input=new Scanner(System.in);//创建Scanner对象
+		Scanner inputs=new Scanner(System.in);//创建Scanner对象
 		//System.out.println("请输入考试成绩信息:");
 		System.out.print("请输入考试成绩信息:"); //和println相比，print不换行
 		//变量保存成绩
-		int score=input.nextInt();//获取用户输入的成绩并保存在变量中
+		int score=inputs.nextInt();//获取用户输入的成绩并保存在变量中
 		
 		//变量保存加分次数
 		int count=0;
